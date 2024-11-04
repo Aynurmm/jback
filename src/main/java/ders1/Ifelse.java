@@ -29,5 +29,24 @@ public class Ifelse {
             result="Daxil etdiyiniz eded 0-a beraberdir";
             System.out.println(result);
         }
+        int d=10;
+        int k=10;
+//        System.out.println(d==k);
+
+        StringBuffer st=new StringBuffer("aa");
+        StringBuilder sm=new StringBuilder("aa");
+        System.out.println(st.equals(sm));
+
+
+//       String s="Aaaa";
+//       String m="Aaaa";
+//       System.out.println(s==m);
+//       System.out.println(s.equals(m));
+
+
+
+
+
+
     }
 }

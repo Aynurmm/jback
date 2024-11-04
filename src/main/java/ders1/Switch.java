@@ -9,6 +9,9 @@ public class Switch {
         int a= sc.nextInt();
         String ay;
         String fesil;
+        String result;
+
+
 
         switch (a){
             case 1:
