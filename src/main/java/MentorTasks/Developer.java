@@ -22,6 +22,11 @@ public class Developer extends Employee{
         System.out.println("teamSize:"+developerLanguage);
     }
 
+    public double calculateBonus(double percentage, double fixedAmount){
+        fixedAmount=calculateBonus(percentage)+super.getSalary();
+        return fixedAmount;
+    }
+
 }
 
 

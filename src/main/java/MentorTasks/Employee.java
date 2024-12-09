@@ -33,8 +33,7 @@ public class Employee {
     }
 
     public double calculateBonus(double percentage) {
-        salary += salary * percentage / 100;
-        return salary;
+      return   salary = salary * percentage / 100;
     }
 
 

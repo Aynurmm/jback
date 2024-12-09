@@ -21,6 +21,7 @@ public class Manager extends Employee {
         System.out.println("Name:" + super.getName());
         System.out.println("Salary:" + super.getSalary());
         System.out.println("teamSize:"+teamSize);
+//        super.displayInfo();
     }
 
     public double calculateBonus(double percentage,double fixedAmount) {
